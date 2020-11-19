@@ -37,8 +37,8 @@ namespace Assignment1
            services.AddRazorPages();
            services.AddAuthentication().AddFacebook(facebookOptions =>
 {
-    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
-    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+    facebookOptions.AppId = "397271454761253";
+    facebookOptions.AppSecret = "6934999df27e5c4883ff6f8437089c66";
 });
         }
 
