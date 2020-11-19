@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    tr
+    {
+        line-height: 6;
+        
+    }
+    tr:hover 
+    {
+        background-color: #F5DEB3;
+    }
+    .authors {
+        display: block;
+        line-height: 4;
+    }
+    th
+    {
+        width: 200px;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Book Information</h1>
+    <table>
+        @{
+            <tr>
+                <th>Title: </th>
+                <td>@ViewBag.bookTitle</td>
+            </tr>
+            <tr>
+                <th>Thumbnail: </th>
+                <td><img src="@ViewBag.thumbnail"></td>
+            </tr>
+            <tr>
+                <th>Authors: </th>
+                @for (var i = 0; i < @ViewBag.length; i++)
+                {
+              
+                    <td class="authors">@ViewBag.authors[i]<br /></td>
+                  
+                }
+                
+            </tr>
+            <tr>
+                <th>Publisher: </th>
+                <td>@ViewBag.publisher</td>
+            </tr>
+            <tr>
+                <th>Published Date: </th>
+                <td>@ViewBag.publishDate</td>
+            </tr>
+            <tr style="line-height: normal;">
+                <th>Description: </th>
+                <td>@ViewBag.description</td>
+            </tr>
+              <tr>
+                <th>ISBN_10: </th>
+                <td>@ViewBag.isbn</td>
+            </tr>
+        }
+    </table>
+</div>

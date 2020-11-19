@@ -1,0 +1,47 @@
+@using System.Text.Json;
+@using System.Text.Json.Serialization;
+@{
+    ViewData["Title"] = "Home Page";
+    JsonElement json = JsonSerializer.Deserialize<JsonElement>(ViewBag.books);
+    var books = json.GetProperty("items");
+     Console.WriteLine(json.GetProperty("items").GetArrayLength());
+    
+}
+<style>
+    body{
+        background-color: burlywood;
+    }
+    a 
+    {
+        color: black;
+        text-decoration: none;
+        font-size: large; 
+    }
+    a:hover
+    {
+        color: #8B4513;
+    }
+    li{
+        padding: 15px;
+    }
+    .display-4{
+        font-weight: bold;
+        color: brown;
+    }
+</style>
+
+<body>
+<div class="text-center">
+    <h1 class="display-4">Books</h1>
+    <ul class="list-unstyled">
+
+        @for (var i = 0; i < books.GetArrayLength(); i++)
+            {
+            <li>
+                <a asp-area="" asp-controller="Book" asp-action="bookInfo" asp-route-id="@i">@books[i].GetProperty("volumeInfo").GetProperty("title")</a>
+            </li>
+            }
+
+    </ul>
+</div>
+</body>
