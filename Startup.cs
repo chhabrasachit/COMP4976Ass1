@@ -12,6 +12,7 @@ using Assignment1.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Assignment1
 {
@@ -34,6 +35,11 @@ namespace Assignment1
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
            services.AddRazorPages();
+           services.AddAuthentication().AddFacebook(facebookOptions =>
+{
+    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,3 +74,4 @@ namespace Assignment1
         }
     }
 }
+
