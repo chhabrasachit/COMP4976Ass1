@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Assignment1.csproj",
+  "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Assignment1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,53 +14392,53 @@
   "RootNamespace": "Assignment1",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Book\\index.cshtml",
-      "TargetPath": "Views\\Book\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Book\\bookInfo.cshtml",
-      "TargetPath": "Views\\Book\\bookInfo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Desktop\\Chhabra_Taylor_Assgnment1\\Chhabra_Taylor_Assgnment1\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Book\\index.cshtml",
+      "TargetPath": "Views\\Book\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Book\\bookInfo.cshtml",
+      "TargetPath": "Views\\Book\\bookInfo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\COMP4976Ass1\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],
